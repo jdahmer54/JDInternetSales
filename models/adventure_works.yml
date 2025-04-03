@@ -46,3 +46,17 @@ relationships:
     to:
       dimension: ''
       level: ''
+  - unique_name: DIM_GEO_CITY_empty_dimension
+    from:
+      dataset: DIM_GEO_CITY
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: DIM_GEO_STATE_empty_dimension
+    from:
+      dataset: DIM_GEO_STATE
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
