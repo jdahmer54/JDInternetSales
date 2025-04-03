@@ -1,0 +1,12 @@
+unique_name: DIMPRODUCTCATEGORY
+object_type: dataset
+label: DIMPRODUCTCATEGORY
+columns:
+  - name: productcategorykey
+    data_type: decimal(38,0)
+  - name: productcategoryalternatekey
+    data_type: decimal(38,0)
+  - name: productcategoryname
+    data_type: string
+connection_id: con_SE_DEMO_LIBRARY_AS_ADVENTURE
+table: DIMPRODUCTCATEGORY

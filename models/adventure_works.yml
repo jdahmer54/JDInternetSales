@@ -1,0 +1,48 @@
+unique_name: adventure_works
+object_type: model
+label: adventure_works
+dimensions: []
+metrics: []
+relationships:
+  - unique_name: FACTINTERNETSALES0_empty_dimension
+    from:
+      dataset: FACTINTERNETSALES0
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: DIM_DATE_DAY_empty_dimension
+    from:
+      dataset: DIM_DATE_DAY
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: FACTINTERNETSALES_empty_dimension
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: DIMCUSTOMER_empty_dimension
+    from:
+      dataset: DIMCUSTOMER
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: DIMPRODUCT_empty_dimension
+    from:
+      dataset: DIMPRODUCT
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: DIMPRODUCTSUBCATEGORY_empty_dimension
+    from:
+      dataset: DIMPRODUCTSUBCATEGORY
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
